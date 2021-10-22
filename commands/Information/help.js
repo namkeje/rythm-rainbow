@@ -7,13 +7,13 @@ module.exports = {
     aliases: ["h", "halp"],
     cooldown: 4,
     usage: "help",
-    description: "Bot của Trương Nhật Nam",
+    description: "Bot của Volkas",
     run: async (client, message, args, user, text, prefix) => {
       try{
-        let string = `Code by Trương Nhật Nam - Developer - by Javascript Language - Lập trình viên siêu cấp`
+        let string = `Code by Volkas - Developer - by Javascript Language`
         let embed = new MessageEmbed()
-        .setTitle("Trương Nhật nam")
-        .setURL("https://buildingmaterial.xyz")
+        .setTitle("Volkas")
+        .setURL("https://volkas.tk")
         .setDescription(string)
         if(message.guild.me.permissionsIn(message.channel).has("EMBED_LINKS")){
           message.reply(embed)
