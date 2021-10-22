@@ -15,22 +15,14 @@ module.exports = {
         //Lệnh nhạc
 let string1 = `\`\`\`fix
 =disconnect -- ngắt kết nối
-=forward    -- đéo biết
-=grab       -- đéo biết
 =loop       -- lúp
-=lyrics     -- mở lai rịch
 =nowplaying -- bài đang phát
 =pause      -- dừng khoảng chừng là 2 giây
 =play       -- lên nhạc
-=playskip   -- qua nhạc
-=playtop    -- on the top nhạc
 =replay     -- chơi lại
 =resume     -- tiếp tiếp
-=rewind     -- đéo biết
 =search     -- Sợt
-=seek       -- đéo biết
 =skip       -- bỏ qua nhạc
-=soundcloud -- đéo biết
 \`\`\``
 //Lệnh hàng chờ
 let string2 = `\`\`\`fix
@@ -41,10 +33,6 @@ let string2 = `\`\`\`fix
 //Lệnh phụ
 let string3 = `\`\`\`fix
 =commands   -- xem lệnh nhé anh em
-=aliases    -- mấy cái dưới này đéo quan tâm nhé anh em
-=help       -- 
-=ping       -- 
-=uptime     -- 
 \`\`\``     
         let pages = [
           {"title": "Lệnh nhạc", "msg": string1},
